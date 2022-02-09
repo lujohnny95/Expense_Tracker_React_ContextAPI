@@ -17,6 +17,9 @@ export const AddTransaction = () => {
         }
 
         addTransaction(newTransaction);
+
+        setText("");
+        setAmount(0);
     }
 
     return (
@@ -33,10 +36,10 @@ export const AddTransaction = () => {
                         Amount <br/>
                         (negative - expense, positive - income)
                     </label>
-                    <input type="number" value={amount} onChange={(e) => setText(e.target.value)}  
+                    <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)}  
                     placeholder='Enter amount...'/>
                 </div>
-                <button className='btn' >Add Transaction</button>
+                <button className='btn' onClick={onSubmit}>Add Transaction</button>
             </form>
         </>
     )
