@@ -15,6 +15,6 @@ A React.js app for tracking income and expenseses:
 
 
 ## Future upgrades: 
-To add signup/login functionality with a working backend to store basic user details and their income-expense records. 
-To include monthly personal finance records for users.
-To convert the app into a Progressive Web App that can be downloaded and used offline.
+- To add signup/login functionality with a working backend to store basic user details and their income-expense records. 
+- To include monthly personal finance records for users.
+- To convert the app into a Progressive Web App that can be downloaded and used offline.
